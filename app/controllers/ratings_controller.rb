@@ -84,6 +84,6 @@ class RatingsController < ApplicationController
   def user_comic_list
     users = User.where(:username => params[:user_name])
     @user = users.first if users.any?
-    @ratings = @user.ratings if @user
+    @ratings = @user.ratings.order("rating DESC") if @user
   end  
 end
