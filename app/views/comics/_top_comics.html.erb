@@ -1,0 +1,44 @@
+<section id="<%= section_name %>-section" class="top-rated-sections">
+<h2><%= section_title %></h2>
+
+<div id="<%= section_name %>-helper-links" class="section-helper-links">
+  <div class="more-links link-to-actions">
+    <%= will_paginate comics, :prev_label => I18n.t('link.prev'),
+  :next_label => I18n.t('link.next') %>
+  </div>
+</div>
+
+<% comics.each_with_index do |comic, index| %>
+  <div id="<%= section_name %>-<%= index %>" class="<%= section_name %>-comics top-rated-comics">
+    <div class="section-left">
+      <div class="comic-book-cover">
+        <img src="<%= comic.book_cover_image_url %>" />
+      </div>
+    </div>
+    <div class="section-middle">
+      <div class="comic-name"><%= comic.name %></div>
+      <div class="comic-author"><%= comic.author %></div>
+      <div class="comic-rating"><%= comic.average_score %> / 10 (<%= comic.rating_count %>)</div>
+      <div class="comic-is-finished"><%= comic.is_finished ? I18n.t("options.finished") : I18n.t("options.not_finished") %></div>  
+    </div>
+    <div class="section-right">    
+      <div class="rating-widgets">
+        <div class="link-to-actions">
+          <%= link_to I18n.t('home.link.rate_this'), new_comic_rating_path(comic) %>
+        </div>
+        <div class="link-to-actions">        
+          <%= link_to I18n.t('home.link.read_online'), "/#" %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<div id="<%= section_name %>-helper-links" class="section-helper-links">
+  <div class="more-links link-to-actions">
+      <%= will_paginate comics, :prev_label => I18n.t('link.prev'),
+    :next_label => I18n.t('link.next') %>
+  </div>
+</div>
+
+</section>

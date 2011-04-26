@@ -1,0 +1,17 @@
+<h2><%= I18n.t('user.link.login') %></h2>
+
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+  <p><%= f.label :email, I18n.t('users.email') %><br />
+  <%= f.email_field :email %></p>
+
+  <p><%= f.label :password, I18n.t('users.password') %><br />
+  <%= f.password_field :password %><%= link_to I18n.t('user.link.forgot_your_password'), new_password_path("user") %>
+  </p>
+
+  <% if devise_mapping.rememberable? -%>
+    <p><%= f.check_box :remember_me %> <%= f.label :remember_me, I18n.t('users.remember_me') %></p>
+  <% end -%>
+
+  <p><%= f.submit I18n.t('user.link.login') %></p>
+  
+<% end %>

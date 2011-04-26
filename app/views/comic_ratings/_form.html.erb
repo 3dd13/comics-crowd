@@ -1,0 +1,24 @@
+<% if @rating.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@rating.errors.count, "error") %> prohibited this rating from being saved:</h2>
+
+    <ul>
+    <% @rating.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<div class="field">
+  <%= f.label :comic_id, I18n.t('comics.comic_name') %><br />
+  <%= @comic.name %>
+</div>
+
+<div class="field">
+  <%= f.label :rating, I18n.t('comics.rating') %><br />
+  <%= f.select :rating, ratings_option_for_select(@rating.rating) %>
+</div>
+<div class="actions">
+  <%= f.submit I18n.t('link.save') %>
+</div>

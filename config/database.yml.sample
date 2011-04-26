@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  template: template0
+  database: best_comics_development
+  pool: 5
+  username: postgres
+  password: postgres
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  template: template0
+  database: best_comics_test
+  pool: 5
+  username: postgres
+  password: postgres
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  template: template0
+  database: best_comics_production
+  pool: 5
+  username: postgres
+  password: postgres

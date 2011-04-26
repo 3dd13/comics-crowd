@@ -1,0 +1,8 @@
+ch:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            password:
+              too_short: "Password Too Short"

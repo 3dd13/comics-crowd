@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @comic_request.name %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @comic_request.author %>
+</p>
+
+<p>
+  <b>Book cover image url:</b>
+  <%= @comic_request.book_cover_image_url %>
+</p>
+
+<p>
+  <b>Online reading website url:</b>
+  <%= @comic_request.online_reading_website_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_comic_request_path(@comic_request) %> |
+<%= link_to 'Back', comic_requests_path %>

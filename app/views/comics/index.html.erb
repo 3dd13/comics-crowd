@@ -1,0 +1,25 @@
+<h1><%= I18n.t('comics.list.title') %></h1>
+
+<div id="help-links" class="suggest-comics">
+  <%= suggest_comics_link %>
+</div>
+
+<table>
+  <tr>
+    <th>名稱</th>
+    <th>作者</th>
+    <!-- <th>封面圖像網址</th> -->
+    <!-- <th>網上閱讀網址</th>     -->
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @comics.each do |comic| %>
+  <tr>
+    <td><%= comic.name %></td>
+    <td><%= comic.author %></td>
+    <td><%= link_to I18n.t('home.link.rate_this'), new_comic_rating_path(comic) %></td>
+    <td><%= link_to I18n.t('home.link.read_online'), "http://dm.99770.com" %></td>    
+  </tr>
+<% end %>
+</table>

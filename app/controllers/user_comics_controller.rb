@@ -1,0 +1,2 @@
+class UserComicsController < ApplicationController
+end

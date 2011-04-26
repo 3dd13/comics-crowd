@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= I18n.t('layout.head.title') %></title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <div id="container">
+      
+  <header>
+    <div id="header">
+      <div id="header-logo">
+        <h3>
+          <li>
+          <%= link_to I18n.t('home.title'),  "/" %>
+          </li>
+      </h3>
+      </div>
+      <div id="header-menu">
+        <nav id="navigation-menu">
+          <ul>
+            <li><%= link_to I18n.t('layout.menu.search_comics'), comics_path %></li>            
+           <% if current_user %>
+             <li><%= link_to I18n.t('layout.menu.your_best_comics'), user_ratings_path(current_user) %></li>
+             <li><%= link_to I18n.t('layout.menu.logout'), destroy_user_session_path %></li>
+           <% else %>
+             <li><%= link_to I18n.t('layout.menu.signup'), new_registration_path("user") %></li>
+             <li><%= link_to I18n.t('layout.menu.login'), new_session_path("user") %></li>
+           <% end %>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <div id="content">
+    <div id="flash-notices">
+    <% ([:error, :notice] & flash.keys).each do |key| %>      
+    <%= content_tag :p, flash[key], :class => "flash_display flash_#{key.to_s.underscore}" %> 
+    <% end %>
+    </div>
+    <%= yield %>
+  </div>
+
+  <footer>
+    <div id="footer">
+      <div id="footer-menu">
+        <ul>
+          <li>Powered by: </li>
+          <li><a href="http://ru05team.blogspot.com">Ru05</a> | </li>          
+          <li><a href="http://github.com/3dd13">3dd13</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+  </div>  
+</body>
+</html>

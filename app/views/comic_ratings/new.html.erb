@@ -1,0 +1,9 @@
+<h1><%= I18n.t('user_ratings.new_rating_title') %></h1>
+
+<%= form_for([@comic, @rating]) do |f| %>
+  <%= render 'form', :f => f %>
+<% end %>
+
+<div class="back-link link-to-actions">
+<%= link_to I18n.t('link.back'), root_path %>
+</div>

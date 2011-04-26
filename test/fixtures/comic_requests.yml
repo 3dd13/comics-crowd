@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  author: MyString
+  book_cover_image_url: MyString
+  online_reading_website_url: MyString
+
+two:
+  name: MyString
+  author: MyString
+  book_cover_image_url: MyString
+  online_reading_website_url: MyString

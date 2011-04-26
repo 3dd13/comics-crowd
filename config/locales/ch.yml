@@ -1,0 +1,91 @@
+ch:
+  home:
+    title: "漫畫Crowd"
+    link:
+      rate_this: "俾分"
+      read_online: "線上閱讀"      
+      more: "更多"
+    section:
+      top_rated: "最受歡迎"
+      top_read: "最多人睇過"
+      user_comic_list: "其他人的心水漫畫"
+
+  layout:
+    head:
+      title: "漫畫Crowd"
+      description: "睇緊既漫畫仲有一星期先出?想搵正既漫畫睇?睇下其他人有咩推介啦!"
+    menu:
+      logout: "登出"
+      signup: "注冊"
+      login: "登入"
+      search_comics: "尋找心水漫畫"
+      your_best_comics: "你的心水漫畫"
+      
+  user:
+    link:
+      login: "登入"
+      signup: "注冊"
+      forgot_your_password: "忘記你的密碼?"
+      
+  users:
+    password: "密碼"
+    email: "電郵"
+    remember_me: "記住登入狀態"
+    username: "帳戶名稱"
+  
+  user_ratings:
+    new_rating_title: "俾分"
+    title: "你的心水"
+    comic_list_title: "的心水"
+    comic_name: "漫畫名稱"
+    rating: "評分"
+    link:
+      new_rating: "新增漫畫俾分"
+      cannot_see_your_favourite_comic: "找不到你喜愛的漫畫?"
+    notice:
+      login_before_rate: "請先登入"
+      rated_successfully: "儲存成功"
+    share_this: "分享你的心水漫畫:"
+    
+  comics:
+    comic_name: "名稱"
+    rating: "分數"
+    list:
+      title: "漫畫列表"
+      
+  comic_requests:
+    title: "歡迎提議更多好睇既漫畫"
+    description: "請閣下花少少時間填寫並提交以下表格, 我地會盡快加入你提議既漫畫。十分感謝!"
+    submitted: "多謝您寶貴既時間, 我地會盡快加入你提議既漫畫。萬分感謝!"
+    name: "作品名稱"
+    author: "作者"
+    book_cover_image_url: "封面網址"
+    online_reading_website_url: "線上閱讀網址"
+  
+  options:
+    finished: "已完結"
+    not_finished: "連載中"
+    
+  link:
+    edit: "修改"
+    back: "回主頁"
+    destroy: "刪除"
+    confirm: "確定"
+    prev: "上一頁"
+    next: "下一頁"
+    save: "儲存"
+    submit: "提交"
+    
+  activerecord:
+    errors:
+      messages:
+        taken: "has already been taken"
+        record_invalid: "Validation failed: %{errors}"    
+        not_saved: "發生錯誤"        
+      models:
+        user:
+          attributes:
+            username:
+              blank: "請輸入帳戶名稱"
+            email:
+              blank: "請輸入電郵"

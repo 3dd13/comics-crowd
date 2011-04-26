@@ -1,0 +1,33 @@
+<%= form_for(@comic_request) do |f| %>
+  <% if @comic_request.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@comic_request.errors.count, "error") %> prohibited this comic_request from being saved:</h2>
+
+      <ul>
+      <% @comic_request.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name, I18n.t('comic_requests.name') %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :author, I18n.t('comic_requests.author') %><br />
+    <%= f.text_field :author %>
+  </div>
+  <div class="field">
+    <%= f.label :book_cover_image_url, I18n.t('comic_requests.book_cover_image_url') %><br />
+    <%= f.text_field :book_cover_image_url %>
+  </div>
+  <div class="field">
+    <%= f.label :online_reading_website_url, I18n.t('comic_requests.online_reading_website_url') %><br />
+    <%= f.text_field :online_reading_website_url %>
+  </div>
+  <div class="actions">
+    <%= f.submit I18n.t('link.submit') %>
+  </div>
+<% end %>

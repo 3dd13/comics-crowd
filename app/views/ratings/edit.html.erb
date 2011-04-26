@@ -1,0 +1,9 @@
+<h1>Editing rating</h1>
+
+<%= form_for(@rating, :url => user_rating_path(current_user)) do |f| %>
+  <%= render 'form', :f => f %>
+<% end %>
+
+<div class="back-link link-to-actions">
+<%= link_to I18n.t('link.back'), user_ratings_path(current_user) %>
+</div>

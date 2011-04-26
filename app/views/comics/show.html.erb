@@ -1,0 +1,20 @@
+<p>
+  <b>Name:</b>
+  <%= @comic.name %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @comic.author %>
+</p>
+
+<p>
+  <b>Book cover image url:</b>
+  <%= @comic.book_cover_image_url %>
+</p>
+
+
+<%= link_to I18n.t('link.edit'), edit_comic_path(@comic) %> |
+<div class="back-link link-to-actions">
+<%= link_to I18n.t('link.back'), comics_path %>
+</div>

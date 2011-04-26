@@ -1,0 +1,9 @@
+<div id="main">
+<%= render "/comics/top_comics", :section_name => "top_rated", :section_title => I18n.t('home.section.top_rated'), :comics => @top_rated_comics %>
+</div>
+
+<div id="sidebar">
+  <sidebar>
+<%= render "/comics/user_comic_list", :section_name => "user_comic_list", :section_title => I18n.t('home.section.user_comic_list'), :user_comic_lists => @user_comic_lists %>
+  </sidebar>
+</div>

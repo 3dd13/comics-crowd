@@ -1,0 +1,2 @@
+module ComicRequestsHelper
+end

@@ -1,0 +1,230 @@
+@font-face {
+	font-family: Vador;
+	src: url('/fonts/vador.ttf');
+}
+
+@font-face {
+	font-family: Bigmouth;
+	src: url('/fonts/Bigmouth.otf');
+}
+
+
+/* General */
+
+body {
+	font-family: Bigmouth, verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+}
+
+#content {
+	clear: both;
+}
+
+#container {
+	width: 800px;
+}
+
+#main {
+	width: 530px;
+	float: left;
+}
+
+#sidebar {
+	width: 200px;
+	float: right;
+}
+
+#sidebar section {
+	padding-left: 15px;
+	border-left: 3px solid #CEC;
+}
+
+#footer {
+	clear: both;
+}
+
+li {
+	list-style: none;
+}
+
+.link-to-actions {
+  margin: 15px 0px 5px 0px;
+}
+
+.link-to-actions a {
+	border: 3px solid #6C9;	
+	border-radius: 5px;
+  padding: 3px 10px;
+
+  text-decoration: none;
+  color: #FFF;
+  background-color: #888;
+}
+
+td, th {
+	padding: 3px 10px;
+}
+
+.field {
+	padding: 5px 0px;
+}
+
+/* Nav Menu */
+
+#header, #footer {
+	margin: 0 auto;
+	width: 800px;
+	
+	overflow: hidden;
+	background-color: #AAA;
+	border-radius: 5px;
+}
+
+#header-logo {
+	float: left;
+	padding: 0 10px;	
+}
+
+#header-menu, #footer-menu {
+	float: right;
+	padding: 0 10px;	
+}
+
+#navigation-menu li, #footer-menu li {
+	padding: 0 10px;
+	float: left;
+}
+
+#navigation-menu li a, #footer a {
+	color: #8e8;
+	text-decoration: none;
+}
+
+#footer-menu li a {
+	font-weight: bold;
+}
+
+#footer-menu li {
+	font-size: 16px;
+	font-family: verdana;
+}
+
+#header-logo a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+/* Home comic list */
+
+.top-rated-sections {
+	overflow: hidden;
+
+	margin: 10px auto;
+	padding: 0px;
+}
+
+.top-rated-sections .top-rated-comics {
+	float: left;
+	border: 3px solid #6C9;	
+	border-radius: 5px;
+  padding: 10px;
+  margin: 2px;
+  width: 500px;
+  background-color: #98fb98;
+  color: #222;
+}
+
+.top-rated-sections .section-helper-links {
+	clear: both;
+	float: right;
+}
+
+.top-rated-sections .comic-name {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.top-rated-sections .comic-author, .top-rated-sections .comic-rating {
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+
+.top-rated-sections h2 {
+	margin: 10px 0 0 7px;
+	color: #888;
+}
+
+
+.sidebar .sections {
+	border: 3px solid #6C9;
+}
+
+.comic-book-cover img {
+	 height: 100px;	
+	 width: 73px;
+}
+
+.rating-widgets {
+  width: 95px;	
+}
+
+.user-comic-list-sections {
+	margin: 30px 0;
+	overflow: hidden;
+}
+
+.user-comic-list-sections h3 {
+	color: #888888;
+  margin: 10px 0;
+}
+
+.user-comic-lists {
+	clear: both;
+}
+
+.list-index, .list-user-username, .list-rating-count {
+	float: left;
+}
+
+.list-index {
+	width: 20px;
+}
+
+.list-user-username {
+	width: 100px;
+}
+
+.list-rating-count {
+	width: 20px;
+}
+
+.section-left {
+	float: left;
+}
+
+.section-middle {
+	float: left;
+  padding: 0 15px;
+}
+
+.section-right {
+	float: right;
+}
+
+/* User comic list */
+#share-this {
+	float: right;
+	font-size: 12px;
+}
+
+#your-comic-list {
+	clear: both;
+	margin: 20px 0;
+}
+
+.suggest-comics {
+	float: right;
+	font-size: 12px;
+}

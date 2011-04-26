@@ -1,0 +1,20 @@
+<p>
+  <b>User:</b>
+  <%= @rating.user.email %>
+</p>
+
+<p>
+  <b>Comic:</b>
+  <%= @rating.comic.name %>
+</p>
+
+<p>
+  <b>Rating:</b>
+  <%= @rating.rating %>
+</p>
+
+
+<%= link_to I18n.t('link.edit'), edit_rating_path(@rating) %> |
+<div class="back-link link-to-actions">
+<%= link_to I18n.t('link.back'), ratings_path %>
+</div>
