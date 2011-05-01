@@ -28,7 +28,7 @@ ch:
   user:
     link:
       login: "登入"
-      signup: "注冊"
+      signup: "註冊"
       forgot_your_password: "忘記你的密碼?"
     login:
       by_email: "以電郵登入"
