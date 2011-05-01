@@ -39,6 +39,7 @@ GEM
     acts-as-taggable-on (2.0.6)
     acts_as_commentable (3.0.1)
     acts_as_rateable (2.0.1)
+    addressable (2.2.5)
     arel (2.0.9)
     bcrypt-ruby (2.1.4)
     builder (2.1.2)
@@ -51,6 +52,10 @@ GEM
       warden (~> 1.0.3)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    faraday (0.6.1)
+      addressable (~> 2.2.4)
+      multipart-post (~> 1.1.0)
+      rack (>= 1.1.0, < 2)
     fastthread (1.0.7)
     gem_plugin (0.2.3)
     heroku (1.20.1)
@@ -74,6 +79,21 @@ GEM
       daemons (>= 1.0.3)
       fastthread (>= 1.0.1)
       gem_plugin (>= 0.2.3)
+    multi_json (1.0.0)
+    multi_xml (0.2.2)
+    multipart-post (1.1.0)
+    oa-core (0.2.5)
+    oa-oauth (0.2.5)
+      faraday (~> 0.6.1)
+      multi_json (~> 1.0.0)
+      multi_xml (~> 0.2.2)
+      oa-core (= 0.2.5)
+      oauth (~> 0.4.0)
+      oauth2 (~> 0.4.1)
+    oauth (0.4.4)
+    oauth2 (0.4.1)
+      faraday (~> 0.6.1)
+      multi_json (>= 0.0.5)
     orm_adapter (0.0.4)
     pg (0.10.1)
     polyglot (0.3.1)
@@ -117,6 +137,7 @@ DEPENDENCIES
   heroku
   jquery-rails
   mongrel
+  oa-oauth
   pg
   rails (= 3.0.7)
   rails_admin!

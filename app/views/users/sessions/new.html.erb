@@ -1,5 +1,7 @@
 <h2><%= I18n.t('user.link.login') %></h2>
 
+<%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
+
 <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
   <p><%= f.label :email, I18n.t('users.email') %><br />
   <%= f.email_field :email %></p>

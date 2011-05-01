@@ -1,7 +1,7 @@
 BestComics::Application.routes.draw do
   resources :comic_requests
 
-  devise_for :users
+  devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
 
   resources :comics do
     resources :ratings, :controller => "comic_ratings"
