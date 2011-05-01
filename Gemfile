@@ -23,6 +23,7 @@ gem 'heroku'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 gem 'devise'
+gem "oa-oauth", :require => "omniauth/oauth"
 gem 'jquery-rails'
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git' 
 gem 'will_paginate'
