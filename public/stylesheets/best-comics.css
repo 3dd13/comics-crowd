@@ -243,3 +243,22 @@ td, th {
 	float: right;
 	font-size: 12px;
 }
+
+.login-panels {
+	float: left;
+	padding: 20px;
+	width: 44%;
+	margin-bottom: 20px;
+}
+
+#email-login h3 {
+	text-align: center;
+}
+
+#email-login {
+	border-right: 3px solid #88A;	
+}
+
+#other-login-providers {
+	text-align: center;
+}

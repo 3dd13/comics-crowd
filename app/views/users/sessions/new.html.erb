@@ -1,7 +1,7 @@
 <h2><%= I18n.t('user.link.login') %></h2>
 
-<%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
-
+<div id="email-login" class="login-panels">
+  <h3><%= I18n.t('user.login.by_email') %></h3>
 <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
   <p><%= f.label :email, I18n.t('users.email') %><br />
   <%= f.email_field :email %></p>
@@ -17,3 +17,9 @@
   <p><%= f.submit I18n.t('user.link.login') %></p>
   
 <% end %>
+</div>
+
+<div id="other-login-providers" class="login-panels">
+  <h3><%= I18n.t('user.login.by_fb') %></h3>
+  <%= link_to image_tag("/images/facebook_64.png"), user_omniauth_authorize_path(:facebook) %>
+</div>
