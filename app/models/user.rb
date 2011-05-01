@@ -18,17 +18,15 @@ class User < ActiveRecord::Base
   validates_uniqueness_of :username, :email
 
   def self.find_for_facebook_oauth(access_token, signed_in_resource=nil)
-    p 'find_for_facebook_oauth'
     data = access_token['extra']['user_hash']
     if user = User.find_by_email(data["email"])
       user
     else # Create a user with a stub password. 
-      User.create!(:email => data["email"], :password => Devise.friendly_token[0,20]) 
+      User.create!(:username => data["name"], :email => data["email"], :password => Devise.friendly_token[0,20]) 
     end
   end
   
   def self.new_with_session(params, session)
-    p 'new_with_session'    
     super.tap do |user|
       if data = session["devise.facebook_data"] && session["devise.facebook_data"]["extra"]["user_hash"]
         user.email = data["email"]
