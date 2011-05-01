@@ -80,9 +80,14 @@ td, th {
 	border-radius: 5px;
 }
 
-#header-logo {
+#header-logo, #header-tagline {
 	float: left;
 	padding: 0 10px;	
+}
+
+#header-tagline {
+	color: #FFF;
+	font-style: italic;
 }
 
 #header-menu, #footer-menu {

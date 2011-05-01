@@ -1,6 +1,7 @@
 ch:
   home:
     title: "漫畫Crowd"
+    tagline: "互相推介好睇既漫畫"
     link:
       rate_this: "俾分"
       read_online: "線上閱讀"      
@@ -13,7 +14,7 @@ ch:
   layout:
     head:
       title: "漫畫Crowd"
-      description: "睇緊既漫畫仲有一星期先出?想搵正既漫畫睇?睇下其他人有咩推介啦!"
+      description: "想搵冷門但係又好睇漫畫睇?睇下其他人有咩推介啦!"
     menu:
       logout: "登出"
       signup: "注冊"
