@@ -29,8 +29,6 @@ class User < ActiveRecord::Base
   def self.new_with_session(params, session)
     super.tap do |user|
       if data = session["devise.facebook_data"] && session["devise.facebook_data"]["extra"]["user_hash"]
-        p "facebook data"
-        p data
         user.email = data["email"]
         user.username = data["name"]
       end
