@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110426144443) do
+ActiveRecord::Schema.define(:version => 20110501070656) do
 
   create_table "comic_requests", :force => true do |t|
     t.string   "name"
@@ -27,8 +27,8 @@ ActiveRecord::Schema.define(:version => 20110426144443) do
     t.string   "book_cover_image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.decimal  "average_score",        :precision => 3, :scale => 1
-    t.integer  "rating_count"
+    t.decimal  "average_score",        :precision => 3, :scale => 1, :default => 0.0, :null => false
+    t.integer  "rating_count",                                       :default => 0,   :null => false
     t.boolean  "is_finished"
   end
 
