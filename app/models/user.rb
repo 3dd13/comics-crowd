@@ -14,7 +14,7 @@ class User < ActiveRecord::Base
 
   validates_presence_of :email, :username
   validates_format_of :username, :with => /\w+/  
-  validates_length_of :username, :minimum => 6, :maximum => 10
+  validates_length_of :username, :minimum => 6, :maximum => 25
   validates_uniqueness_of :username, :email
 
   def self.find_for_facebook_oauth(access_token, signed_in_resource=nil)

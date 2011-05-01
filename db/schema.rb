@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110501070656) do
+ActiveRecord::Schema.define(:version => 20110501102141) do
 
   create_table "comic_requests", :force => true do |t|
     t.string   "name"
@@ -108,7 +108,7 @@ ActiveRecord::Schema.define(:version => 20110501070656) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "is_admin",                            :default => false
-    t.string   "username",             :limit => 10
+    t.string   "username",             :limit => 25
   end
 
   add_index "users", ["authentication_token"], :name => "index_users_on_authentication_token", :unique => true
