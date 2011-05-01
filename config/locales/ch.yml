@@ -9,18 +9,21 @@ ch:
     section:
       top_rated: "最受歡迎"
       top_read: "最多人睇過"
-      user_comic_list: "其他人的心水漫畫"
+      user_comic_list: "其他人推介既好睇漫畫"
 
   layout:
     head:
       title: "漫畫Crowd"
-      description: "想搵冷門但係又好睇漫畫睇?睇下其他人有咩推介啦!"
+      description: "想搵冷門但係又好睇既漫畫睇?睇下其他人有咩推介啦!"
+    user_meta:
+      title: "%{user_name}的好睇漫畫推介| 漫畫Crowd"
+      description: "%{user_name}的好睇漫畫推介| 漫畫Crowd"
     menu:
       logout: "登出"
       signup: "注冊"
       login: "登入"
-      search_comics: "尋找心水漫畫"
-      your_best_comics: "你的心水漫畫"
+      search_comics: "尋找好睇漫畫"
+      your_best_comics: "你的好睇漫畫推介"
       
   user:
     link:
@@ -36,8 +39,8 @@ ch:
   
   user_ratings:
     new_rating_title: "俾分"
-    title: "你的心水"
-    comic_list_title: "的心水"
+    title: "你的好睇漫畫推介"
+    comic_list_title: "的好睇漫畫推介"
     comic_name: "漫畫名稱"
     rating: "評分"
     link:
@@ -46,7 +49,7 @@ ch:
     notice:
       login_before_rate: "請先登入"
       rated_successfully: "儲存成功"
-    share_this: "分享你的心水漫畫:"
+    share_this: "分享你的漫畫推介:"
     
   comics:
     comic_name: "名稱"

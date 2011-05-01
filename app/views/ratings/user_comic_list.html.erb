@@ -1,4 +1,9 @@
-<h1><%= "#{@user.username} #{I18n.t('user_ratings.comic_list_title')}" %></h1>
+<h1>
+  <%= "#{@user.username} #{I18n.t('user_ratings.comic_list_title')}" %>
+  <span id="share-button">
+    <a id="facebook-share-button" href="http://www.facebook.com/sharer.php?u=<%= request.url %>&t=See which comics are recommended by the crowd"><img src="/images/fb_share_button.png" /></a>          
+  </span>
+</h1>
 
 <table>
   <tr>

@@ -85,5 +85,7 @@ class RatingsController < ApplicationController
     users = User.where(:username => params[:user_name])
     @user = users.first if users.any?
     @ratings = @user.ratings.order("rating DESC") if @user
+    @meta_title = I18n.t("layout.user_meta.title", :user_name => @user.username) if @user
+    @meta_description = I18n.t("layout.user_meta.description", :user_name => @user.username) if @user
   end  
 end
