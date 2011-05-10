@@ -46,6 +46,7 @@ ch:
     comic_list_title: "的好睇漫畫推介"
     comic_name: "漫畫名稱"
     rating: "評分"
+    author_name: "作者"    
     link:
       new_rating: "給其他漫畫評分"
       cannot_see_your_favourite_comic: "找不到你喜愛的漫畫?"
@@ -59,6 +60,10 @@ ch:
     rating: "分數"
     list:
       title: "漫畫列表"
+      
+    author:
+      list:
+        title: "的作品"
       
   comic_requests:
     title: "歡迎提議更多好睇既漫畫"

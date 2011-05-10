@@ -221,6 +221,15 @@ td, th {
 	color: #888;
 }
 
+.comic-author a {
+	color: #8E8;
+	text-decoration: underline;
+}
+
+.comic-author a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
 
 .sidebar .sections {
 	border: 3px solid #6C9;

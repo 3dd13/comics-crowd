@@ -12,6 +12,7 @@ BestComics::Application.routes.draw do
   end
   
   match 'user_comic_list/:user_name' => 'ratings#user_comic_list', :as => "user_comic_list"
+  match 'comics/author/:author_name' => 'comics#author_search'
   
   root :to => "home#index"
 

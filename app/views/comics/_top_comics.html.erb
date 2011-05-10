@@ -17,7 +17,7 @@
     </div>
     <div class="section-middle">
       <div class="comic-name"><%= comic.name %></div>
-      <div class="comic-author"><%= comic.author %></div>
+      <div class="comic-author"><%= link_to comic.author, "/comics/author/#{comic.author}" %></div>
       <div class="comic-rating"><%= comic.average_score %> / 10 (<%= comic.rating_count %>)</div>
       <div class="comic-is-finished"><%= comic.is_finished ? I18n.t("options.finished") : I18n.t("options.not_finished") %></div>
     </div>

@@ -5,6 +5,7 @@
 <table>
   <tr>
     <th><%= I18n.t("user_ratings.comic_name") %></th>
+    <th><%= I18n.t("user_ratings.author_name") %></th>    
     <th><%= I18n.t("user_ratings.rating") %></th>
     <th></th>
     <th></th>
@@ -14,6 +15,7 @@
 <% @ratings.each do |rating| %>
   <tr>
     <td><%= rating.comic.name %></td>
+    <td><%= link_to rating.comic.author, "/comics/author/#{rating.comic.author}" %></td>
     <td><%= rating.rating %></td>
     <td><%= link_to I18n.t('link.edit'), edit_user_rating_path(current_user, rating) %></td>
     <td><%= link_to I18n.t('link.destroy'), user_rating_path(current_user, rating), :confirm => I18n.t('link.confirm'), :method => :delete %></td>

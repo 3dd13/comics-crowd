@@ -21,6 +21,14 @@ class ComicsController < ApplicationController
     end
   end
   
+  def author_search
+    @author_name = params[:author_name]
+    @comics = Comic.where(:author => params[:author_name])
+    if !@comics.any?
+      redirect_to root_path, :notice => "No comics found for this author."
+    end
+  end
+  
   # 
   # # GET /comics/new
   # # GET /comics/new.xml
