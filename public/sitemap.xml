@@ -4,42 +4,228 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 <url>
   <loc>http://comics-crowd.heroku.com/</loc>
-  <changefreq>daily</changefreq>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://comics-crowd.heroku.com/comics</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://comics-crowd.heroku.com/user_comic_list/ru05_3dd13</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://comics-crowd.heroku.com/user_comic_list/chicky</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://comics-crowd.heroku.com/user_comic_list/vincentcha</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://comics-crowd.heroku.com/user_comic_list/ru05_9sing</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://comics-crowd.heroku.com/user_comic_list/ru05_9b</loc>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://comics-crowd.heroku.com/?page=1</loc>
-  <changefreq>daily</changefreq>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://comics-crowd.heroku.com/?page=2</loc>
-  <changefreq>daily</changefreq>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/?page=3</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#228;&#186;&#228;&#184;&#233;&#229;&#189;&#166;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#191;&#229;&#180;&#230;&#173;&#163;&#230;&#190;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#230;&#232;&#179;&#162;&#228;&#184;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#176;&#190;&#231;&#176;&#232;&#163;&#228;&#184;&#233;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#232;&#229;&#183;&#229;&#188;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#231;&#166;&#230;&#172;&#228;&#188;&#184;&#232;&#161;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#169;&#230;&#172;&#228;&#187;&#165;&#232;,&#231;&#176;&#228;&#184;&#173;&#228;&#186;&#229;&#184;&#229;&#164;&#171;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#233;&#179;&#230;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#231;&#168;&#229;&#183;&#233;&#230;&#168;&#185;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#232;&#191;&#171;&#231;&#168;&#233;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#232;&#164;&#231;&#176;&#229;&#230;&#165;&#233;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#231;&#178;&#230;&#232;&#176;&#183;&#229;&#191;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#231;&#229;&#179;&#182;&#230;&#181;&#169;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#233;&#171;&#230;&#169;&#229;&#170;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#190;&#231;&#176;&#230;&#173;&#163;&#228;&#186;&#186;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#177;&#177;&#230;&#172;&#232;&#177;&#229;&#164;&#171;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/user_comic_list/ru05_3dd13</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/user_comic_list/chicky</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/user_comic_list/vincentcha</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/user_comic_list/ru05_9sing</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/user_comic_list/ru05_9b</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comic_requests/new</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#231;&#187;&#171;&#229;&#179;&#176;&#230;&#160;&#228;&#186;&#186;%20(&#233;&#230;&#160;&#228;&#189;&#229;&#164;)</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#228;&#185;&#228;&#191;&#229;&#184;&#182;&#228;&#186;&#186;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#178;&#184;&#230;&#172;&#233;&#189;&#229;&#178;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#165;&#167;&#230;&#181;&#169;&#229;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#164;&#167;&#229;&#160;&#180;&#233;&#184;&#171;%20&#229;&#176;&#231;&#229;&#165;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#179;&#182;&#232;&#162;&#229;&#229;&#185;&#180;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#233;&#230;&#161;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#166;&#229;&#165;&#230;&#187;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#232;&#164;&#229;&#173;&#194;&#183;F&#194;&#183;&#228;&#184;&#228;&#186;&#233;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#178;&#169;&#228;&#187;&#163;&#228;&#191;&#230;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#231;&#176;&#233;&#228;&#188;&#232;&#161;&#233;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#168;&#229;&#229;&#185;&#184;&#228;&#186;&#186;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#161;&#230;&#173;&#163;&#229;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#177;&#177;&#229;&#164;&#169;&#230;&#160;&#229;&#186;&#184;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#178;&#179;&#229;&#179;&#182;&#230;&#173;&#163;%20&#229;&#174;&#233;&#230;&#184;&#161;&#229;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#231;&#179;&#229;&#183;&#229;&#170;&#229;&#190;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#164;&#232;&#176;&#183;&#229;&#175;&#166;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#231;&#229;&#183;&#228;&#186;&#174;&#228;&#186;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#232;&#177;&#230;&#190;&#164;&#229;&#165;&#229;&#190;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#229;&#178;&#229;&#164;&#171;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#231;&#168;&#187;&#231;&#176;&#230;&#181;&#169;&#229;&#184;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#229;&#175;&#229;&#160;&#231;&#190;&#169;&#229;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#230;&#181;&#166;&#230;&#190;&#164;&#231;&#180;&#230;&#168;&#185;%20&#230;&#229;&#161;&#230;&#178;&#187;&#232;&#171;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#233;&#179;&#165;&#229;&#177;&#177;&#230;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#232;&#230;&#168;&#233;&#163;&#229;&#229;&#189;&#166;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#233;&#229;&#177;&#177;&#229;&#230;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#233;&#230;&#233;&#189;&#228;&#184;&#233;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#232;&#171;&#171;&#229;&#177;&#177;&#229;&#181;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/comics/author/&#228;&#189;&#232;&#164;&#231;&#167;&#229;&#179;&#176;</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://comics-crowd.heroku.com/?page=1</loc>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>

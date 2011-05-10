@@ -1,5 +1,4 @@
-# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
-#
-# To ban all spiders from the entire site uncomment the next two lines:
-# User-Agent: *
-# Disallow: /
+# users sign up and login page has no meaning at all
+# no need to put in google indexes
+User-agent: *
+Disallow: /users/
