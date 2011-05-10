@@ -19,7 +19,7 @@
       <div class="comic-name"><%= comic.name %></div>
       <div class="comic-author"><%= comic.author %></div>
       <div class="comic-rating"><%= comic.average_score %> / 10 (<%= comic.rating_count %>)</div>
-      <div class="comic-is-finished"><%= comic.is_finished ? I18n.t("options.finished") : I18n.t("options.not_finished") %></div>  
+      <div class="comic-is-finished"><%= comic.is_finished ? I18n.t("options.finished") : I18n.t("options.not_finished") %></div>
     </div>
     <div class="section-right">    
       <div class="rating-widgets">
@@ -27,7 +27,7 @@
           <%= link_to I18n.t('home.link.rate_this'), new_comic_rating_path(comic) %>
         </div>
         <div class="link-to-actions">        
-          <%= link_to I18n.t('home.link.read_online'), "/#" %>
+          <%= link_to I18n.t('home.link.read_online'), comic.online_reading_website_url ? comic.online_reading_website_url : "/#" %>
         </div>
       </div>
     </div>

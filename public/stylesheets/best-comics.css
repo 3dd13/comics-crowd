@@ -36,7 +36,9 @@ body {
 
 #sidebar section {
 	padding-left: 15px;
+	padding-bottom: 15px;
 	border-left: 3px solid #CEC;
+	font-weight: bold;
 }
 
 #footer {
@@ -59,6 +61,37 @@ li {
   text-decoration: none;
   color: #FFF;
   background-color: #888;
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(100% 100% 90deg, #898, #565);
+  
+  /* Safari 4-5, Chrome 1-9 */
+  /* -webkit-gradient(<type>, <point> [, <radius>]?, <point> [, <radius>]? [, <stop>]*) */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#565), to(#898));
+  
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(#898, #565);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(#898, #565);
+}
+
+.link-to-actions a:hover {
+  color: #FFF;
+  background-color: #6C9;
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(100% 100% 90deg, #696, #565);
+  
+  /* Safari 4-5, Chrome 1-9 */
+  /* -webkit-gradient(<type>, <point> [, <radius>]?, <point> [, <radius>]? [, <stop>]*) */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#565), to(#696));
+  
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(#696, #565);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(#696, #565);
 }
 
 td, th {
@@ -106,6 +139,11 @@ td, th {
 	text-decoration: none;
 }
 
+#navigation-menu li a:hover, #footer a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
 #footer-menu li a {
 	font-weight: bold;
 }
@@ -147,8 +185,20 @@ td, th {
   padding: 10px;
   margin: 2px;
   width: 500px;
-  background-color: #98fb98;
+
   color: #222;
+  background-color: #274727;
+/*  background-color: #98fb98;*/
+
+  /* Firefox 3.6+ */ 
+  /* -moz-radial-gradient( [<position> || <angle>,]? [<shape> || <size>,]? <stop>, <stop>[, <stop>]* ) */
+  background: -moz-radial-gradient(80% 20% , farthest-corner, #274727, #449955) repeat scroll 0 0 transparent;
+  
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, 80% 20%, 0, 80% 40%, 100, from(#274727), to(#449955));
+  
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(80% 20%, farthest-corner, #274727, #449955);
 }
 
 .top-rated-sections .section-helper-links {
@@ -195,8 +245,13 @@ td, th {
   margin: 10px 0;
 }
 
-.user-comic-lists {
+.user-comic-lists, .user-comic-lists a {
 	clear: both;
+	color: #262;
+	font-weight: bold;
+	margin: 2px 0px;
+	padding: 5px 0px;
+	line-height: 16px;
 }
 
 .list-index, .list-user-username, .list-rating-count {
@@ -226,6 +281,19 @@ td, th {
 
 .section-right {
 	float: right;
+}
+
+.pagination, .section-middle {
+	color: #121;
+  font-weight: bold;
+  text-shadow: 0 0 2px #999999;
+}
+
+.section-right .link-to-actions a:hover {
+	box-shadow: 3px 3px 1px #333;
+
+	margin-left: -1px;
+	margin-top: -2px;
 }
 
 /* User comic list */

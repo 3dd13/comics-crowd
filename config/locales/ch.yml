@@ -3,7 +3,7 @@ ch:
     title: "漫畫Crowd"
     tagline: "互相推介好睇既漫畫"
     link:
-      rate_this: "俾分"
+      rate_this: "評分"
       read_online: "線上閱讀"      
       more: "更多"
     section:
@@ -41,13 +41,13 @@ ch:
     username: "帳戶名稱"
   
   user_ratings:
-    new_rating_title: "俾分"
+    new_rating_title: "評分"
     title: "你的好睇漫畫推介"
     comic_list_title: "的好睇漫畫推介"
     comic_name: "漫畫名稱"
     rating: "評分"
     link:
-      new_rating: "新增漫畫俾分"
+      new_rating: "給其他漫畫評分"
       cannot_see_your_favourite_comic: "找不到你喜愛的漫畫?"
     notice:
       login_before_rate: "請先登入"
